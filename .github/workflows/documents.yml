@@ -10,6 +10,7 @@ on:
             - "docs/**/*.vue"
             - "docs/package.json"
             - "docs/.env*"
+            - "docs/**/*.md"
             - ".github/workflows/doc*.yml"
     pull_request:
         types: [ opened, synchronize, reopened ]
@@ -19,6 +20,7 @@ on:
             - "docs/**/*.vue"
             - "docs/package.json"
             - "docs/.env*"
+            - "docs/**/*.md"
             - ".github/workflows/doc*.yml"
 
 jobs:
@@ -50,6 +52,7 @@ jobs:
                     path: docs/.vitepress/dist
 
             -   name: Deploy to server
+                if: github.event_name != 'pull_request'
                 uses: easingthemes/ssh-deploy@main
                 env:
                     REMOTE_HOST: ${{ secrets.REMOTE_HOST }}

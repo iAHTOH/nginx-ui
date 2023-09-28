@@ -15,6 +15,8 @@ func InitRouter() *gin.Engine {
 
 	r.Use(cacheJs())
 
+	r.Use(OperationSync())
+
 	r.Use(static.Serve("/", mustFS("")))
 
 	r.NoRoute(func(c *gin.Context) {
@@ -142,6 +144,9 @@ func InitRouter() *gin.Engine {
 
 			// node
 			g.GET("node", api.GetCurrentNode)
+
+			// translation
+			g.GET("translation/:code", api.GetTranslation)
 		}
 	}
 

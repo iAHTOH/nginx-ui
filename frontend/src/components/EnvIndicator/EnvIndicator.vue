@@ -75,7 +75,11 @@ watch(node_id, async () => {
         justify-content: space-between;
 
         .env-name {
-            max-width: 50px;
+            max-width: 85px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            line-height: 1em;
+            overflow: hidden;
         }
 
         .ant-tag {
@@ -83,6 +87,14 @@ watch(node_id, async () => {
             margin-right: 0;
             padding: 0 5px;
         }
+    }
+}
+
+.dark {
+    .container {
+        border: 1px solid #545454;
+        background: transparent;
+        color: #bebebe;
     }
 }
 </style>

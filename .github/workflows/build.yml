@@ -50,10 +50,6 @@ jobs:
                 run: yarn install
                 working-directory: frontend
 
-            -   name: Update translations
-                run: yarn gettext:compile
-                working-directory: frontend
-
             -   name: Build
                 run: |
                     npx browserslist@latest --update-db
@@ -173,7 +169,7 @@ jobs:
             -   name: Build
                 run: |
                     mkdir -p dist
-                    go build -ldflags "$LD_FLAGS -X 'github.com/0xJacky/Nginx-UI/server/settings.buildTime=$(date +%s)'" -o dist/nginx-ui -v main.go
+                    go build -tags=jsoniter -ldflags "$LD_FLAGS -X 'github.com/0xJacky/Nginx-UI/server/settings.buildTime=$(date +%s)'" -o dist/nginx-ui -v main.go
 
             -   name: Archive backend artifacts
                 uses: actions/upload-artifact@v3
@@ -197,6 +193,7 @@ jobs:
                         ${{ env.DIST }}.tar.gz.digest
 
     docker-build:
+        if: github.event_name != 'pull_request'
         runs-on: ubuntu-latest
         needs: build
         env:

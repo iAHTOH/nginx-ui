@@ -91,7 +91,10 @@ func Analytic(c *gin.Context) {
 
 		// write
 		err = ws.WriteJSON(stat)
-		if err != nil {
+		if err != nil || websocket.IsUnexpectedCloseError(err,
+			websocket.CloseGoingAway,
+			websocket.CloseNoStatusReceived,
+			websocket.CloseNormalClosure) {
 			logger.Error(err)
 			break
 		}
@@ -171,7 +174,10 @@ func GetNodeStat(c *gin.Context) {
 	for {
 		// write
 		err = ws.WriteJSON(analytic.GetNodeStat())
-		if err != nil {
+		if err != nil || websocket.IsUnexpectedCloseError(err,
+			websocket.CloseGoingAway,
+			websocket.CloseNoStatusReceived,
+			websocket.CloseNormalClosure) {
 			logger.Error(err)
 			break
 		}
@@ -198,7 +204,10 @@ func GetNodesAnalytic(c *gin.Context) {
 	for {
 		// write
 		err = ws.WriteJSON(analytic.NodeMap)
-		if err != nil {
+		if err != nil || websocket.IsUnexpectedCloseError(err,
+			websocket.CloseGoingAway,
+			websocket.CloseNoStatusReceived,
+			websocket.CloseNormalClosure) {
 			logger.Error(err)
 			break
 		}

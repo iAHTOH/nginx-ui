@@ -16,6 +16,7 @@ var (
 )
 
 type Server struct {
+	HttpHost          string `json:"http_host"`
 	HttpPort          string `json:"http_port"`
 	RunMode           string `json:"run_mode"`
 	JwtSecret         string `json:"jwt_secret"`
@@ -28,13 +29,15 @@ type Server struct {
 	Demo              bool   `json:"demo"`
 	PageSize          int    `json:"page_size"`
 	GithubProxy       string `json:"github_proxy"`
-	NginxConfigDir    string `json:"nginx_config_dir"`
-	NginxPIDPath      string `json:"nginx_pid_path"`
 }
 
-type NginxLog struct {
+type Nginx struct {
 	AccessLogPath string `json:"access_log_path"`
 	ErrorLogPath  string `json:"error_log_path"`
+	ConfigDir     string `json:"config_dir"`
+	PIDPath       string `json:"pid_path"`
+	ReloadCmd     string `json:"reload_cmd"`
+	RestartCmd    string `json:"restart_cmd"`
 }
 
 type OpenAI struct {
@@ -44,15 +47,8 @@ type OpenAI struct {
 	Model   string `json:"model"`
 }
 
-type Git struct {
-	Url                string `json:"url"`
-	AuthMethod         string `json:"auth_method"`
-	Username           string `json:"username"`
-	Password           string `json:"password"`
-	PrivateKeyFilePath string `json:"private_key_file_path"`
-}
-
-var ServerSettings = &Server{
+var ServerSettings = Server{
+	HttpHost:          "0.0.0.0",
 	HttpPort:          "9000",
 	RunMode:           "debug",
 	HTTPChallengePort: "9180",
@@ -64,22 +60,19 @@ var ServerSettings = &Server{
 	GithubProxy:       "",
 }
 
-var NginxLogSettings = &NginxLog{
+var NginxSettings = Nginx{
 	AccessLogPath: "",
 	ErrorLogPath:  "",
 }
 
-var OpenAISettings = &OpenAI{}
-
-var GitSettings = &Git{}
+var OpenAISettings = OpenAI{}
 
 var ConfPath string
 
 var sections = map[string]interface{}{
-	"server":    ServerSettings,
-	"nginx_log": NginxLogSettings,
-	"openai":    OpenAISettings,
-	"git":       GitSettings,
+	"server": &ServerSettings,
+	"nginx":  &NginxSettings,
+	"openai": &OpenAISettings,
 }
 
 func init() {
@@ -121,6 +114,7 @@ func mapTo(section string, v interface{}) {
 }
 
 func reflectFrom(section string, v interface{}) {
+	log.Print(section, v)
 	err := Conf.Section(section).ReflectFrom(v)
 	if err != nil {
 		log.Fatalf("Cfg.ReflectFrom %s err: %v", section, err)
