@@ -1,108 +1,139 @@
-# Перевод README с испанского языка
-
 <div align="center">
-      <img src="resources/logo.png" alt="Logotipo de la interfaz de usuario de Nginx">
+  <img src="resources/logo.png" alt="Логотип Nginx UI">
 </div>
 
-# Interfaz de usuario (UI) de Nginx
+# Nginx UI
 
-Otra UI web de Nginx, desarrollada por [0xJacky](https://jackyu.cn/), [Hintay](https://blog.kugeek.com/) y [Akino](https://github.com/akinoccc).
+Ещё один веб-интерфейс для Nginx, разработанный [0xJacky](https://jackyu.cn/), [Hintay](https://blog.kugeek.com/) и [Akino](https://github.com/akinoccc).
 
-[![Build and Publish](https://github.com/0xJacky/nginx-ui/actions/workflows/build.yml/badge.svg)](https://github.com/0xJacky/nginx-ui/actions/workflows/build.yml)
+[![DeepWiki](https://img.shields.io/badge/DeepWiki-0xJacky%2Fnginx--ui-blue.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost668sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==)](https://deepwiki.com/0xJacky/nginx-ui)
+[![Задать вопрос в DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/0xJacky/nginx-ui)
 
-## Documentación
-Para consultar la documentación, visite [nginxui.com](https://nginxui.com).
+[![Сборка и публикация](https://github.com/0xJacky/nginx-ui/actions/workflows/build.yml/badge.svg)](https://github.com/0xJacky/nginx-ui/actions/workflows/build.yml)
+[![Лицензия GitHub](https://img.shields.io/github/license/0xJacky/nginx-ui?label=Лицензия&logo=github)](https://github.com/0xJacky/nginx-ui "Репозиторий на GitHub")
+[![Версия релиза](https://img.shields.io/github/release/0xJacky/nginx-ui?include_prereleases&label=Релиз&logo=github)](https://github.com/0xJacky/nginx-ui/releases/latest "Репозиторий на GitHub")
+[![Звёзды GitHub](https://img.shields.io/github/stars/0xJacky/nginx-ui?label=Звёзды&logo=github)](https://github.com/0xJacky/nginx-ui "Репозиторий на GitHub")
+[![Форки GitHub](https://img.shields.io/github/forks/0xJacky/nginx-ui?label=Форки&logo=github)](https://github.com/0xJacky/nginx-ui "Репозиторий на GitHub")
+[![Размер репозитория](https://img.shields.io/github/repo-size/0xJacky/nginx-ui?label=Размер&logo=github)](https://github.com/0xJacky/nginx-ui "Репозиторий на GitHub")
+[![Закрытые задачи](https://img.shields.io/github/issues-closed-raw/0xJacky/nginx-ui?label=Закрытые%20задачи&logo=github)](https://github.com/0xJacky/nginx-ui/issues "Репозиторий на GitHub")
 
-## Stargazers en el tiempo
+[![Звёзды Docker](https://img.shields.io/docker/stars/uozi/nginx-ui?label=Звёзды&logo=docker)](https://hub.docker.com/r/uozi/nginx-ui "Образ на Docker Hub")
+[![Загрузки Docker](https://img.shields.io/docker/pulls/uozi/nginx-ui?label=Загрузки&logo=docker)](https://hub.docker.com/r/uozi/nginx-ui "Образ на Docker Hub")
+[![Размер образа](https://img.shields.io/docker/image-size/uozi/nginx-ui/latest?label=Размер%20образа&logo=docker)](https://hub.docker.com/r/uozi/nginx-ui "Образ на Docker Hub")
 
-[![Stargazers over time](https://starchart.cc/0xJacky/nginx-ui.svg)](https://starchart.cc/0xJacky/nginx-ui)
+[![Статус перевода](https://weblate.nginxui.com/widget/nginx-ui/frontend/svg-badge.svg)](https://weblate.nginxui.com/engage/nginx-ui/)
+[![Рекомендуется｜HelloGitHub](https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=86f3a8f779934748a34fe6f1b5cd442f&claim_uid=MOFqadzAShCBeQj&theme=small)](https://hellogithub.com/repository/86f3a8f779934748a34fe6f1b5cd442f)
 
+## Документация
+Документация доступна на сайте [nginxui.com](https://nginxui.com).
 
-[English](README.md) | Español | [简体中文](README-zh_CN.md) | [繁體中文](README-zh_TW.md)
+## Спонсорство
+
+Если проект полезен для вас, рассмотрите возможность спонсирования для поддержки разработки и сопровождения.
+
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Спонсоры-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/nginxui)
+[![Afdian](https://img.shields.io/badge/爱发电-Поддержка-946ce6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K)](https://afdian.com/a/nginxui)
+
+Ваша поддержка поможет нам:
+- 🚀 Ускорить разработку новых функций
+- 🐛 Исправлять ошибки и повышать стабильность
+- 📚 Улучшать документацию и руководства
+- 🌐 Обеспечивать лучшую поддержку сообщества
+- 💻 Поддерживать инфраструктуру и демо-серверы
+
+## Динамика звёзд на GitHub
+
+[![Динамика звёзд](https://starchart.cc/0xJacky/nginx-ui.svg)](https://starchart.cc/0xJacky/nginx-ui)
+
+[English](README.md) | [Español](README-es.md) | [简体中文](README-zh_CN.md) | [繁體中文](README-zh_TW.md) | [Tiếng Việt](README-vi_VN.md) | [日本語](README-ja_JP.md) | **Русский**
 
 <details>
-  <summary>Tabla de Contenidos</summary>
+  <summary>Содержание</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Sobre el proyecto</a>
+      <a href="#о-проекте">О проекте</a>
       <ul>
-        <li><a href="#demo">Demostración</a></li>
-        <li><a href="#features">Características</a></li>
-        <li><a href="#internationalization">Internacionalización</a></li>
-        <li><a href="#built-with">Desarrollado con</a></li>
+        <li><a href="#демо">Демо</a></li>
+        <li><a href="#возможности">Возможности</a></li>
+        <li><a href="#интернационализация">Интернационализация</a></li>
+        <li><a href="#технологии">Технологии</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Cómo empezar</a>
+      <a href="#начало-работы">Начало работы</a>
       <ul>
-        <li><a href="#before-use">Antes de usar</a></li>
-        <li><a href="#installation">Instalación</a></li>
+        <li><a href="#перед-использованием">Перед использованием</a></li>
+        <li><a href="#установка">Установка</a></li>
         <li>
-          <a href="#usage">Uso</a>
+          <a href="#использование">Использование</a>
           <ul>
-            <li><a href="#from-executable">Desde el ejecutable</a></li>
-            <li><a href="#with-systemd">Con Systemd</a></li>
-            <li><a href="#with-docker">Con Docker</a></li>
+            <li><a href="#исполняемый-файл">Исполняемый файл</a></li>
+            <li><a href="#через-systemd">Через Systemd</a></li>
+            <li><a href="#через-docker">Через Docker</a></li>
           </ul>
         </li>
       </ul>
     </li>
     <li>
-      <a href="#manual-build">Compilación manual</a>
+      <a href="#ручная-сборка">Ручная сборка</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisitos</a></li>
-        <li><a href="#build-app">Compilación del Frontend</a></li>
-        <li><a href="#build-backend">Compilación del Backend</a></li>
+        <li><a href="#требования">Требования</a></li>
+        <li><a href="#сборка-фронтенда">Сборка фронтенда</a></li>
+        <li><a href="#сборка-бэкенда">Сборка бэкенда</a></li>
       </ul>
     </li>
     <li>
-      <a href="#script-for-linux">Script para Linux</a>
+      <a href="#скрипт-для-linux">Скрипт для Linux</a>
       <ul>
-        <li><a href="#basic-usage">Uso Básico</a></li>
-        <li><a href="#more-usage">Uso Avanzado</a></li>
+        <li><a href="#базовое-использование">Базовое использование</a></li>
+        <li><a href="#дополнительные-возможности">Дополнительные возможности</a></li>
       </ul>
     </li>
-    <li><a href="#example-of-nginx-reverse-proxy-configuration">Ejemplo de configuración de proxy reverso de Nginx</a></li>
-    <li><a href="#contributing">Contribuir</a></li>
-    <li><a href="#license">Licencia</a></li>
+    <li><a href="#пример-конфигурации-обратного-прокси-nginx">Пример конфигурации обратного прокси Nginx</a></li>
+    <li><a href="#вклад-в-проект">Вклад в проект</a></li>
+    <li><a href="#лицензия">Лицензия</a></li>
   </ol>
 </details>
 
+## О проекте
 
-## Sobre el proyecto
+![Панель управления](resources/screenshots/dashboard_en.png)
 
-![Dashboard](resources/screenshots/dashboard_es.png)
+### Демо
+Ссылка: [https://demo.nginxui.com](https://demo.nginxui.com)
+- Логин: admin
+- Пароль: admin
 
-### Demostración
-URL：[https://demo.nginxui.com](https://demo.nginxui.com)
-- Nombre de usuario: admin
-- Contraseña: admin
+### Возможности
 
-### Características
+- Мониторинг сервера в реальном времени: загрузка CPU, использование памяти, средняя нагрузка, использование диска.
+- Автоматическое резервное копирование конфигураций с возможностью сравнения версий и восстановления.
+- Управление кластерами с синхронизацией на несколько узлов для удобного администрирования.
+- Экспорт зашифрованных конфигураций Nginx / Nginx UI для быстрого развёртывания.
+- Улучшенный ассистент **ChatGPT** с поддержкой цепочек рассуждений Deepseek-R1 для оптимизации конфигураций.
+- **MCP** (Model Context Protocol) предоставляет интерфейсы для взаимодействия AI-агентов с Nginx UI.
+- Автоматическое получение и продление сертификатов Let's Encrypt.
+- Онлайн-редактор конфигураций **NgxConfigEditor** (блочный) или **Ace Code Editor** (с подсветкой синтаксиса и автодополнением).
+- Просмотр логов Nginx в реальном времени.
+- Написан на Go и Vue, распространяется в виде единого исполняемого файла.
+- Автоматическая проверка конфигураций и перезагрузка Nginx.
+- Веб-терминал.
+- Тёмная тема.
+- Адаптивный дизайн.
 
-- Estadísticas en línea para los indicadores del servidor, como el uso de la CPU, el uso de la memoria, el promedio de carga y el uso del disco.
-- Asistente de ChatGPT en línea
-- Despliegue con un solo clic y renovación automática de certificados Let's Encrypt.
-- Edición de las configuraciones de sitios web con nuestro **NgxConfigEditor** de diseño propio, que es un editor de bloques fácil de usar para configuraciones de nginx o con el **Editor de código Ace** que admite resaltar la sintaxis de configuración de nginx.
-- Visualización en línea los registros de Nginx
-- Escrito en Go y Vue, distribuído en un único binario ejecutable.
-- Prueba automática del archivo de configuración y recarga de nginx después de guardar la configuración.
-- Terminal Web
-- Modo oscuro
-- Diseño web adaptable
+### Интернационализация
 
-### Internacionalización
+Официально поддерживаются:
+- Английский
+- Упрощённый китайский
+- Традиционный китайский
 
-- Inglés
-- Chino Simplificado
-- Chino Tradicional
+Дополнительные языки доступны благодаря сообществу. Участвуйте в переводе на [Weblate](https://weblate.nginxui.com).
 
-Aceptamos traducciones a cualquier idioma.
+### Технологии
 
-### Desarrollado con
-
-- [El lenguaje de programación Go](https://go.dev)
-- [Gin Web Framework](https://gin-gonic.com)
+- [Go](https://go.dev)
+- [Gin](https://gin-gonic.com)
 - [GORM](http://gorm.io)
 - [Vue 3](https://v3.vuejs.org)
 - [Vite](https://vitejs.dev)
@@ -113,14 +144,10 @@ Aceptamos traducciones a cualquier idioma.
 - [Gonginx](https://github.com/tufanbarisyildirim/gonginx)
 - [lego](https://github.com/go-acme/lego)
 
-## Cómo empezar
+## Начало работы
 
-### Antes de usar
-
-La UI de Nginx sigue la configuración estándar de archivos de un servidor web de Debian. Los archivos de configuración del sitio creados se colocarán en la carpeta `sites-available` que se encuentra dentro de la carpeta de configuración de Nginx (detectada automáticamente). Los archivos de configuración para un sitio habilitado crearán un soft link en la carpeta `sites-enabled`. Es posible que deba ajustar la forma en que se organizan los archivos de configuración.
-
-Para sistemas que no sean Debian (y Ubuntu), es posible que deba cambiar el contenido del archivo de configuración `nginx.conf` al estilo Debian como se muestra a continuación.
-
+### Перед использованием
+Nginx UI использует стандартную структуру конфигураций Debian. Для совместимости с другими дистрибутивами измените nginx.conf:
 ```nginx
 http {
 	# ...
@@ -129,197 +156,166 @@ http {
 }
 ```
 
-Para más información: [debian/conf/nginx.conf](https://salsa.debian.org/nginx-team/nginx/-/blob/master/debian/conf/nginx.conf#L59-L60)
+### Установка
+Поддерживаемые платформы:
+- macOS 11+
+- Windows 10+
+- Linux (x86/amd64/arm/riscv/loongarch)
+- *BSD
+- OpenWrt
 
-### Instalación
+Скачайте последнюю версию в [релизах](https://github.com/0xJacky/nginx-ui/releases/latest) или используйте [скрипт для Linux](#скрипт-для-linux).
 
-La UI de Nginx está disponible en las siguientes plataformas:
+### Использование
+После запуска откройте `http://<IP_сервера>:<порт>` в браузере.
 
-- macOS 11 Big Sur y posterior (amd64 / arm64)
-- Windows 10 y posterior (x86 /amd64 / arm64)
-- Linux 2.6.23 y posterior (x86 / amd64 / arm64 / armv5 / armv6 / armv7 / mips32 / mips64 / riscv64 / loongarch64)
-  - Incluyendo pero no limitado a Debian 7 / 8, Ubuntu 12.04 / 14.04 y posterior, CentOS 6 / 7, Arch Linux
-- FreeBSD
-- OpenBSD
-- Dragonfly BSD
-- Openwrt
-
-Puede visitar [latest release](https://github.com/0xJacky/nginx-ui/releases/latest) para descargar la última distribución, o simplemente usar los [scripts de instalación para Linux](#script-for-linux).
-
-### Uso
-
-Al ejecutar por primera vez la UI de Nginx, visite en su navegador `http://<your_server_ip>:<listen_port>` para completar las configuraciones posteriores.
-
-#### Desde el ejecutable
-**Ejecutar UI Nginx en la terminal**
-
+#### Исполняемый файл
+**Запуск в терминале:**
 ```shell
 nginx-ui -config app.ini
 ```
-Presione `Control+C` en la terminal para salir de la UI de Nginx.
-
-**Ejecutar UI Nginx en Segundo plano**
-
+**Фоновый запуск:**
 ```shell
 nohup ./nginx-ui -config app.ini &
 ```
-Detenga la UI de Nginx con el siguiente comando.
-
+**Остановка:**
 ```shell
 kill -9 $(ps -aux | grep nginx-ui | grep -v grep | awk '{print $2}')
 ```
-#### Con Systemd
-Si está utilizando el [script de instalación para Linux](#script-for-linux), la UI de Nginx se instalará como el servicio `nginx-ui` en systemd. Utilice el comando `systemctl` para controlarlo.
 
-**Iniciar UI Nginx**
-
+#### Через Systemd
+**Запуск:**
 ```shell
 systemctl start nginx-ui
 ```
-**Detener UI Nginx**
-
+**Остановка:**
 ```shell
 systemctl stop nginx-ui
 ```
-**Reiniciar UI Nginx**
-
+**Перезапуск:**
 ```shell
 systemctl restart nginx-ui
 ```
 
-#### Con Docker
-Nuestra imagen dpcker [uozi/nginx-ui:latest](https://hub.docker.com/r/uozi/nginx-ui) se basa en la última imagen nginx y se puede usar para reemplazar Nginx en el host. Puede realizar el cambio fácilmente publicando los puertos 80 y 443 del contenedor en el host.
+#### Через Docker
+Используйте образ [uozi/nginx-ui:latest](https://hub.docker.com/r/uozi/nginx-ui).
 
-
-##### Nota
-1. Cuando utilice este contenedor por primera vez, asegúrese de que el volumen mapeado a /etc/nginx esté vacío.
-2. Si desea incluir archivos estáticos, puede mapear directorios al contenedor.
-
-**Ejemplo de desplegado Docker**
+<details>
+<summary><b>Запуск контейнера</b></summary>
 
 ```bash
 docker run -dit \
   --name=nginx-ui \
   --restart=always \
-  -e TZ=Asia/Shanghai \
-  -v /mnt/user/appdata/nginx:/etc/nginx \
-  -v /mnt/user/appdata/nginx-ui:/etc/nginx-ui \
-  -v /var/www:/var/www \
+  -e TZ=Europe/Moscow \
+  -v /path/to/nginx:/etc/nginx \
+  -v /path/to/nginx-ui:/etc/nginx-ui \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -p 8080:80 -p 8443:443 \
   uozi/nginx-ui:latest
 ```
+</details>
 
-## Compilación manual
+<details>
+<summary><b>Docker Compose</b></summary>
 
-En plataformas que no tienen una versión de compilación oficial, pueden compilarse manualmente.
+```yml
+services:
+    nginx-ui:
+        container_name: nginx-ui
+        restart: always
+        environment:
+            - TZ=Europe/Moscow
+        volumes:
+            - '/path/to/nginx:/etc/nginx'
+            - '/path/to/nginx-ui:/etc/nginx-ui'
+            - '/var/run/docker.sock:/var/run/docker.sock'
+        ports:
+            - 8080:80
+            - 8443:443
+        image: 'uozi/nginx-ui:latest'
+```
+</details>
 
-### Prerequisitos
+## Ручная сборка
 
+### Требования
 - Make
+- Go 1.23+
+- Node.js 21+ (`npx browserslist@latest --update-db`)
 
-- Golang 1.23+
-
-- node.js 21+
-
-  ```shell
-  npx browserslist@latest --update-db
-  ```
-
-### Compilación del Frontend
-
-Ejecute el siguiente comando en el directorio `app`.
-
+### Сборка фронтенда
+В директории `app`:
 ```shell
 pnpm install
 pnpm build
 ```
 
-### Compilación del Backend
-
-Primero compile la interfaz y luego ejecute el siguiente comando en el directorio raíz del proyecto.
-
+### Сборка бэкенда
+В корне проекта:
 ```shell
 go generate
 go build -tags=jsoniter -ldflags "$LD_FLAGS -X 'github.com/0xJacky/Nginx-UI/settings.buildTime=$(date +%s)'" -o nginx-ui -v main.go
 ```
 
-## Script para Linux
+## Скрипт для Linux
 
-### Uso básico
-
-**Instalar and Actualizar**
-
+### Базовое использование
+**Установка/обновление:**
 ```shell
 bash -c "$(curl -L https://cloud.nginxui.com/install.sh)" @ install
 ```
-El puerto de escucha predeterminado es `9000` y el puerto de Desafío HTTP predeterminado es `9180`.
-Si hay un conflicto de puertos, modifique manualmente `/usr/local/etc/nginx-ui/app.ini`,
-luego use `systemctl restart nginx-ui` para recargar el servicio de UI de Nginx.
+(Порт по умолчанию: 9000)
 
-**Eliminar UI Nginx UI, excepto los archivos de configuración y la base de datos**
-
+**Удаление (сохраняет данные):**
 ```shell
 bash -c "$(curl -L https://cloud.nginxui.com/install.sh)" @ remove
 ```
 
-### Uso avanzado
-
-````shell
+### Дополнительные возможности
+```shell
 bash -c "$(curl -L https://cloud.nginxui.com/install.sh)" @ help
-````
+```
 
-## Ejemplo de configuración de proxy reverso de Nginx
-
+## Пример конфигурации обратного прокси Nginx
 ```nginx
 server {
-    listen          80;
-    listen          [::]:80;
-
-    server_name     <your_server_name>;
-    rewrite ^(.*)$  https://$host$1 permanent;
+    listen 80;
+    server_name ваш_домен;
+    return 301 https://$host$request_uri;
 }
 
 map $http_upgrade $connection_upgrade {
     default upgrade;
-    ''      close;
+    '' close;
 }
 
 server {
-    listen  443       ssl;
-    listen  [::]:443  ssl;
-    http2   on;
+    listen 443 ssl http2;
+    server_name ваш_домен;
 
-    server_name         <your_server_name>;
-
-    ssl_certificate     /path/to/ssl_cert;
-    ssl_certificate_key /path/to/ssl_cert_key;
+    ssl_certificate /путь/к/cert.pem;
+    ssl_certificate_key /путь/к/privkey.pem;
 
     location / {
-        proxy_set_header    Host                $host;
-        proxy_set_header    X-Real-IP           $remote_addr;
-        proxy_set_header    X-Forwarded-For     $proxy_add_x_forwarded_for;
-        proxy_set_header    X-Forwarded-Proto   $scheme;
-        proxy_http_version  1.1;
-        proxy_set_header    Upgrade             $http_upgrade;
-        proxy_set_header    Connection          $connection_upgrade;
-        proxy_pass          http://127.0.0.1:9000/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection $connection_upgrade;
+        proxy_pass http://127.0.0.1:9000/;
     }
 }
 ```
 
-## Contribuir
+## Вклад в проект
+1. Форкните репозиторий
+2. Создайте ветку (`git checkout -b feature/NewFeature`)
+3. Зафиксируйте изменения (`git commit -m 'Добавлена новая функция'`)
+4. Запушьте ветку (`git push origin feature/NewFeature`)
+5. Создайте Pull Request
 
-Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es **muy apreciada**.
-
-Si tiene una sugerencia que mejoraría este proyecto, bifurque el repositorio y cree un pull request. También puede simplemente abrir un issue con la etiqueta "enhancement". ¡No olvides darle una estrella al proyecto! ¡Gracias de nuevo!
-
-1. Bifurcar el proyecto
-2. Crea un branch de mejora (`git checkout -b feature/AmazingFeature`)
-3. Commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push al branch (`git push origin feature/AmazingFeature`)
-5. Abrir un Pull Request
-
-## Licencia
-
-Este proyecto se proporciona bajo una licencia GNU Affero General Public License v3.0 que se puede encontrar en el archivo [LICENCIA](LICENSE). Al usar, distribuir o contribuir a este proyecto, acepta los términos y condiciones de esta licencia.
+## Лицензия
+Проект распространяется под лицензией [GNU AGPLv3](LICENSE).
